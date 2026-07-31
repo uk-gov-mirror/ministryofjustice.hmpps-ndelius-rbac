@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.9.1 at 2026/07/17 09:39:15
+# Role Catalogue generated from RBAC Matrix v6.9.2 at 2026/07/31 15:17:59
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.9.1
+description:RBAC v6.9.2
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -4270,6 +4270,26 @@ uibusinessinteractioncollection:ESUPBI001
 objectclass:NDRole
 objectclass:top
 cn:ESUPBT002
+
+dn:cn=ESUPBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Probation Account View
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:ESUPBI001
+objectclass:NDRole
+objectclass:top
+cn:ESUPBT003
+
+dn:cn=PRTBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Probation Reporting Tools User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:PRTBI001
+objectclass:NDRole
+objectclass:top
+cn:PRTBT001
 
 dn:cn=SPLNBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Sentence Plan General Access
