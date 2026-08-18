@@ -1,7 +1,7 @@
-# Role Catalogue generated from RBAC Matrix v6.8.4 at 2026/07/01 15:40:04
+# Role Catalogue generated from RBAC Matrix v6.8.5 at 2026/08/18 10:10:25
 
 dn:cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:RBAC v6.8.4
+description:RBAC v6.8.5
 objectclass: Top
 objectclass: person
 sn: ndRoleCatalogue
@@ -564,6 +564,7 @@ level1:TRUE
 level2:FALSE
 level3:TRUE
 uibusinessinteractioncollection:SEBI005
+uibusinessinteractioncollection:SRBI001
 uibusinessinteractioncollection:SEBI111
 uibusinessinteractioncollection:SEBI114
 objectclass:NDRole
@@ -4261,7 +4262,7 @@ objectclass:top
 cn:ESUPBT001
 
 dn:cn=ESUPBT002,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:e-Supervision Account Invitations
+description:Probation Account Service Invitations
 level1:FALSE
 level2:FALSE
 level3:FALSE
@@ -4269,6 +4270,16 @@ uibusinessinteractioncollection:ESUPBI001
 objectclass:NDRole
 objectclass:top
 cn:ESUPBT002
+
+dn:cn=ESUPBT003,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Probation Account View
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:ESUPBI001
+objectclass:NDRole
+objectclass:top
+cn:ESUPBT003
 
 dn:cn=SPLNBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Sentence Plan General Access
@@ -4279,6 +4290,16 @@ uibusinessinteractioncollection:SPLNBI001
 objectclass:NDRole
 objectclass:top
 cn:SPLNBT001
+
+dn:cn=PRTBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
+description:Probation Reporting Tools User
+level1:FALSE
+level2:FALSE
+level3:FALSE
+uibusinessinteractioncollection:PRBI001
+objectclass:NDRole
+objectclass:top
+cn:PRTBT001
 
 dn:cn=RMBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
 description:Refer and Monitor Access
@@ -4371,7 +4392,7 @@ objectclass:top
 cn:HPABT001
 
 dn:cn=VLPBT001,cn=ndRoleCatalogue,cn=Users,dc=pcms,dc=internal
-description:Book a Video Link Access
+description:Book a Video Link (probation)
 level1:FALSE
 level2:FALSE
 level3:FALSE
